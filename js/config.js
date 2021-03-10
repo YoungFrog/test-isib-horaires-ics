@@ -275,9 +275,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     .forEach(e => {
                         e.style.display = "none";
                     });
-                // ical.value = "https:" + fullUrl;
-                // addToCalendarButton.href = 
-                //     `https://www.google.com/calendar/render?cid=https:${fullUrl}`;
+                ical.value = fullUrl;
+                addToCalendarButton.href = 
+                    `https://www.google.com/calendar/render?cid=${fullUrl}`;
             })
             .then(() => calendar.render())
             .catch(e => {
