@@ -5,10 +5,10 @@ METHOD:PUBLISH
 X-CALSTART:20210201T000000Z
 X-CALEND:20210508T000000Z
 X-WR-CALNAME;LANGUAGE=fr:HYP - 503 503 - du 01 février au 08 mai 2021
-X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de 503 503 généré par le logiciel HP (©INDEX ÉDUCATION) le 26 janv. 2021 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 01 février au 08 mai 2021 - Semaines : semaine 5 - 18
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de 503 503 généré par le logiciel HP (©INDEX ÉDUCATION) le 04 mars 2021 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 01 février au 08 mai 2021 - Semaines : semaine 5 - 18
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20210126T105027Z
+DTSTAMP:20210304T121842Z
 UID:Ferie-86-503-Index-Education
 DTSTART;VALUE=DATE:20210404
 DTEND;VALUE=DATE:20210419
