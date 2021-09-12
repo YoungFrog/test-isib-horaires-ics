@@ -45,7 +45,7 @@ rm -r "${removed_files[@]}"
 
 cd work || die "Sum Ting Wong, can't cd to: work"
 
-yarn
+yarn --frozen-lockfile
 yarn build
 cp -rt .. "${dist_files[@]}"
 
