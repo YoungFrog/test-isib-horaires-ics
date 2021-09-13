@@ -33,7 +33,8 @@ const rules = {
     extractName (fn) {
       const basename = getBaseNameWithoutExtension(fn)
       const acr = basename.split('_')[0]
-      return personnel.find((elm) => elm.acronyme === acr).nom
+      const nom = personnel.find((elm) => elm.acronyme === acr).nom
+      return `${acr} - ${nom}`
     }
   },
   salles: {
