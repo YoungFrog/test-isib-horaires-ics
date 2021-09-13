@@ -4,7 +4,7 @@ import timeGridPlugin from '@fullcalendar/timegrid'
 import iCalendarPlugin from '@fullcalendar/icalendar'
 import frLocale from '@fullcalendar/core/locales/fr'
 import ResourceSelector from './ResourceSelector'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import Footer from './Footer'
 import CalLink from './CalLink'
 import EventModal from './EventModal'
@@ -57,6 +57,15 @@ const App = (props: AppProps): JSX.Element => {
     return <pre>Pas de chance, le site est cassé..</pre>
   }
 
+  // useMemo avoids re-creating the {url, format} object
+  // hences avoids refreshing the calendar on every re-render of our component
+  const currentEvents = useMemo(() => selectedResource
+    ? {
+        url: selectedResource.calendar,
+        format: 'ics'
+      }
+    : undefined, [selectedResource])
+
   return (
     <>
       <main className={'container-fluid mt-3'}>
@@ -86,13 +95,7 @@ const App = (props: AppProps): JSX.Element => {
           fixedWeekCount={false}
           showNonCurrentDates={false}
           locale={frLocale}
-          events={selectedResource
-            ? {
-                url: selectedResource.calendar,
-                format: 'ics'
-              }
-            : undefined
-          }
+          events={currentEvents}
           contentHeight={'75vh'}
           stickyHeaderDates={true}
           eventClick={selectEventHandler}
