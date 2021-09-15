@@ -14,7 +14,7 @@ const CalLink = (props: CalLinkProps): JSX.Element => {
     const [copied, setCopied] = useState(false)
 
     const copyHandler = async () => {
-      await navigator.clipboard.writeText(url)
+      await navigator.clipboard.writeText(`https://${url}`)
       setCopied(true)
     }
 
