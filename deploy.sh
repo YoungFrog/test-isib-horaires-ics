@@ -45,6 +45,7 @@ rm -r "${removed_files[@]}"
 
 cd work || die "Sum Ting Wong, can't cd to: work"
 
+head_commit_info=$(git log -n 1 --pretty="format:%h - %s (%ai)")
 yarn --frozen-lockfile
 yarn build
 cp -rt .. "${dist_files[@]}"
@@ -52,6 +53,6 @@ cp -rt .. "${dist_files[@]}"
 cd .. || die ""
 
 git add .
-git commit -m "Update website"
+git commit -m "Update website to $head_commit_info"
 
 say "Can now push after making sure it's all good. You can e.g. php -S localhost:3547"
