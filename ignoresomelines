@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+grep -v -e DTSTAMP -e X-WR-CALDESC -e LAST-MODIFIED "$1"
+
