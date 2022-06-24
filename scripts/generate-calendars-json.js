@@ -46,10 +46,8 @@ const rules = {
   }
 }
 
-// record a key-value pair into bucket
-// bucket is an object (v2), or an array (! v2)
 function record (bucket, key, valueObject) {
-  bucket[key] = { key, ...valueObject }
+  bucket[key] = valueObject
 }
 
 const config = {
