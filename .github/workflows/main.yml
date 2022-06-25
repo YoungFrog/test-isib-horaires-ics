@@ -29,6 +29,8 @@ jobs:
           git clone --depth 1 git@github.com:HEB-ESI/he2besi-web 2>&1 | cat
           mkdir -p build/config
           node scripts/generate-calendars-json.js ical/2021-2022/q3 he2besi-web/jekyllsrc/_data/personnels.json >build/calendars.json
+          npm install
+          node scripts/getEvents.mjs -d ical/2021-2022/q3/groupes/ >build/events.json
           { printf '<p>Last update: <time>%s</time></p>' "$(date)"; } >build/index.html
           mv ical -t build
           

@@ -1,0 +1,19 @@
+{
+  "name": "horaires-ics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^4.0.0",
+    "current-week-number": "^1.0.7",
+    "fullcalendar": "^5.10.1",
+    "ical": "^0.8.0",
+    "node-getopt": "^0.3.2"
+  }
+}
