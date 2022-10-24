@@ -38,10 +38,10 @@ const events = JSON.parse(fs.readFileSync(path.resolve("../build/events.json")))
   * retourne la date donnée en paramètre
   */
 function getDate(argv) {
-    if (argv.length < 3) {
+    if (argv.length < 1) {
 	return new Date();
     }
-    let arg = argv[2];
+    let arg = argv[0];
 
     if (! arg.match(/^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}/))
 	throw new Error('Date should be in format: yyyy-mm-dd');
