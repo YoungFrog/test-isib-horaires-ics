@@ -4,8 +4,8 @@
  * et compte le nombre de séance
  * de l'UE donnée
  * pour chaque groupe
- * jusqu'à la date du jour (ou celle donnée en param)
- * Exemple: node ue-nb-seances.mjs -u javl 2022-10-14
+ * jusqu'au nombre de séances donné, et indique la date à laquelle on atteint ladite séance
+ * Exemple: node ue-nb-seances.mjs -u javl 12
 
  * Exception notable: si le nom de l'AA d'un évt comprend un signe +, ça compte comme une demi-séance
  * pour tenir compte de l'AA javl+env en dev1 (quelle horreur)
@@ -29,29 +29,20 @@ if (opt.argv.length > 1) {
 const { ue: aaregexp } = opt.options;
 
 
-const date = getDate(opt.argv);
+const nbSeanceVoulu = opt.argv[0];
 const events = JSON.parse(fs.readFileSync(path.resolve("../build/events.json")))
 
 
 
-/**
-  * retourne la date donnée en paramètre
-  */
-function getDate(argv) {
-    if (argv.length < 1) {
-	return new Date();
+
+function getNbSeanceParGroupe(groupes, nbSeanceVoulu) {
+    let nbSeances = {}
+
+    for (let gpe of groupes) {
+        nbSeances[gpe] = 0;
     }
-    let arg = argv[0];
 
-    if (! arg.match(/^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}/))
-	throw new Error('Date should be in format: yyyy-mm-dd');
-
-    return new Date(arg);
-}
-
-
-function getNbSeanceParGroupe(groupes, date) {
-    let dict = {}
+    let dateSeance = {}
 
     for (let event of events.sort((e1, e2) => (new Date(e1.start) - new Date(e2.start)))) {
 	/**
@@ -62,24 +53,18 @@ function getNbSeanceParGroupe(groupes, date) {
 
 	if (aaregexp && !aa.match(new RegExp(aaregexp, 'i'))) continue
 
-	if (! dict[groupe]) dict[groupe] = 0;
+        nbSeances[groupe]+= aa.match(/\+/) ? 0.5 : 1;
 
-	let startDay = new Date(event.start)
-	startDay.setHours(0,0,0,0);
-	if (startDay <= date){
-	    if (aa.match(/\+/)) {
-	    	dict[groupe]+=0.5;
-	    } else {
-		dict[groupe]++;
-	    }
-	}
+        if (! dateSeance[groupe] && nbSeances[groupe] >= nbSeanceVoulu) {
+            dateSeance[groupe] = event.start;
+        }
 	
     }
 
-    return dict
+    return dateSeance
 }
 
-let result = getNbSeanceParGroupe(groupes, date)
+let result = getNbSeanceParGroupe(groupes, nbSeanceVoulu)
 
 if (process.stdout.isTTY) {
     console.log(result)
