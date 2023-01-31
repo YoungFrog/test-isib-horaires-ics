@@ -30,7 +30,8 @@ jobs:
           mkdir -p build/config
           node scripts/generate-calendars-json.js ical/2022-2023/q2 he2besi-web/jekyllsrc/_data/personnels.json >build/calendars.json
           npm install
-          node scripts/getEvents.mjs -d ical/2022-2023/q2/groupes/ >build/events.json
+          node scripts/getEvents.mjs -d ical/2022-2023/q2/cours/ >build/events.json
+          node scripts/generate-ics.mjs ical/2022-2023/q2/ build/events.json
           { printf '<p>Last update: <time>%s</time></p>' "$(date)"; } >build/index.html
           mv ical -t build
           
