@@ -115,7 +115,7 @@ function getIcsEvent(event) {
  * @returns 
  */
 function getDateAsArray(date) {
-  return [date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes()]
+  return [date.getFullYear(), date.getMonth()+1, date.getDate(), date.getHours(), date.getMinutes()]
 }
 
 
