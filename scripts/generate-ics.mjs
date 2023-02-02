@@ -37,7 +37,7 @@ fs.readFile(eventsJsonFile, 'utf-8', (err, data) => {
   */
    events.forEach(event => {
     var icsEvent = getIcsEvent(event)
-    addEvent(event.profacros, profs, icsEvent)
+    addEvent(event.profacros || event.profs, profs, icsEvent)
     addEvent(event.groupes, groupes, icsEvent)
     addEvent(event.lieux, salles, icsEvent)
   })

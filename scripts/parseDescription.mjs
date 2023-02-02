@@ -22,6 +22,7 @@ const parseDesc = (description) => {
         obj.aa = value
         break
       case 'TD':
+      case 'Promotions':
         obj.groupes = value.split(', ')
         break
       case 'Enseignant':

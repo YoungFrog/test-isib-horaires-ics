@@ -8,6 +8,7 @@ on:
 
 env:
   icaldir: ical/2022-2023/q2
+  HORAIRES_SANS_ACRONYMES: ${{ vars.HORAIRES_SANS_ACRONYMES }}
 
 jobs:
   build:
