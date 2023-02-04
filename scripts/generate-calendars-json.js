@@ -33,7 +33,6 @@ const rules = {
     },
     extractName (fn) {
       const basename = getBaseNameWithoutExtension(fn)
-      if (process.env.HORAIRES_SANS_ACRONYMES) return basename
       const acr = basename.split('_')[0]
       const nom = personnel.find((elm) => elm.acronyme === acr)?.nom
       if (!nom) throw new Error(`Acronyme non trouvé: ${acr} (file ${fn})`)

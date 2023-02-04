@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  icaldir: ical/2022-2023/q2
+  icaldir: ical
   HORAIRES_SANS_ACRONYMES: ${{ vars.HORAIRES_SANS_ACRONYMES }}
 
 jobs:
@@ -34,9 +34,9 @@ jobs:
           mkdir -p build/config
           npm install
           node scripts/getEvents.mjs -d ical/2022-2023/q2/cours/ >build/events.json
-          mkdir -p "$icaldir"/{groupes,profs,salles}
-          node scripts/generate-ics.mjs "$icaldir"/ build/events.json
-          node scripts/generate-calendars-json.js "$icaldir" he2besi-web/jekyllsrc/_data/personnels.json >build/calendars.json
+          mkdir -p "$icaldir"/{cours,groupes,profs,salles}
+          node scripts/generate-ics.mjs "$icaldir"/ build/events.json build/calendars.json
+          # node scripts/generate-calendars-json.js "$icaldir" he2besi-web/jekyllsrc/_data/personnels.json >build/calendars.json
           { printf '<p>Last update: <time>%s</time></p>' "$(date)"; } >build/index.html
           mv ical -t build
           
