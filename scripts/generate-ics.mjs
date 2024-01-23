@@ -175,7 +175,7 @@ function getTitle(event, type) {
 
   switch(type) {
     case "salles":   
-    case "cours":  return title + " - " + profs + " - " +  groupes //+ " - " + locations
+    case "cours":  return title + " - " + profs + " - " +  groupes + " - " + locations
     case "profs":  return title + " - " + groupes //+ " - " + location
     case "groupes":  return title + " - " + profs //+" - "+ location
   }
