@@ -170,14 +170,14 @@ function getTitle(event, type) {
   const formatter = new Intl.ListFormat('fr', {style: 'narrow', type: 'unit' })
   const groupes = formatter.format(event.groupes)
   const profs = formatter.format(event.profacros)
-  const locations = formatter.format(event.lieux ?? "")
+  const locations = formatter.format(event.lieux || "")
   const title = event.title
 
   switch(type) {
     case "salles":   
     case "cours":  return title + " - " + profs + " - " +  groupes + " - " + locations
-    case "profs":  return title + " - " + groupes //+ " - " + location
-    case "groupes":  return title + " - " + profs //+" - "+ location
+    case "profs":  return title + " - " + groupes + " - " + locations
+    case "groupes":  return title + " - " + profs +" - "+ locations
   }
 }
 
