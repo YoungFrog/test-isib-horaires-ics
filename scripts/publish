@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+#url=git@github.com:HEB-ESI/horaires-ics.git
+url=git@github.com:YoungFrog/test-horaires.git
+exportDirDepot=export-cours/
+exportDir=export-cours/
+
+identityFile=$(readlink -f ./esi-secretariat)
+
+ourGit() {
+    git -c core.sshCommand="ssh -i $identityFile" "$@"
+}
+shopt -s nullglob
+
+exportFiles=("$exportDir"/*)
+
+if [[ ${#exportFiles[@]} -lt 1 ]]; then
+    echo "Répertoire d'export est vide"
+    read -p "Press [Enter] to close this window..."
+
+    exit 1
+fi
+
+ourGit clone "$url" depot &&
+cd depot || exit 1
+rm -r "$exportDirDepot"
+mv -T ../"$exportDir" "$exportDirDepot" &&
+ourGit add "$exportDirDepot" &&
+ourGit commit -m "Update ics files" &&
+ourGit push &&
+cd .. &&
+rm -rf depot &&
+mkdir -p "$exportDir"
+
+echo; echo
+
+echo "Tout semble s'être bien passé. Cela devrait être en ligne d'ici une petite minute."
+read -p "Press [Enter] to close this window..."
