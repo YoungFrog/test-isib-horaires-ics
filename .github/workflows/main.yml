@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir -p build/config
           npm install
-          node scripts/getEvents.mjs -d ical/2022-2023/q2/cours/ >build/events.json
+          node scripts/getEvents.mjs -d export-cours/ >build/events.json
           mkdir -p "$icaldir"/{cours,groupes,profs,salles}
           node scripts/generate-ics.mjs "$icaldir"/ build/events.json build/calendars.json
           { printf '<p>Last update: <time>%s</time></p>' "$(date)"; } >build/index.html
