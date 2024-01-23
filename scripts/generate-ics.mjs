@@ -161,7 +161,7 @@ function getIcsEvent(event, type) {
     end:  getDateAsArray(new Date(event.end)),
     title: getTitle(event, type),
     description: (event.description) ? event.description : "-",
-    location: event.location,
+    location: event.lieux + "",
     uid: event.id
   }
 }
@@ -170,7 +170,7 @@ function getTitle(event, type) {
   const formatter = new Intl.ListFormat('fr', {style: 'narrow', type: 'unit' })
   const groupes = formatter.format(event.groupes)
   const profs = formatter.format(event.profacros)
-  const locations = formatter.format(event.location)
+  const locations = formatter.format(event.lieux ?? "")
   const title = event.title
 
   switch(type) {
