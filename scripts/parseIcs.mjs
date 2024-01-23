@@ -19,6 +19,7 @@ function getEventsFromFile(fn, props) {
         end: event.end,
         id: event.uid,
         title: event.summary?.val,
+        description: event.description?.val,
         //extendedProps: {
         ...parseDesc(event.description?.val),
         location: event.location?.val,
