@@ -29,15 +29,11 @@ jobs:
 
       - name: generate config file
         run: |
-          # the redirection avoids progress meter
-          git clone --depth 1 git@github.com:HEB-ESI/he2besi-web 2>&1 | cat
-          rm -rf he2besi-web/.git # so that git does not complain about this being a submodule
           mkdir -p build/config
           npm install
           node scripts/getEvents.mjs -d ical/2022-2023/q2/cours/ >build/events.json
           mkdir -p "$icaldir"/{cours,groupes,profs,salles}
           node scripts/generate-ics.mjs "$icaldir"/ build/events.json build/calendars.json
-          # node scripts/generate-calendars-json.js "$icaldir" he2besi-web/jekyllsrc/_data/personnels.json >build/calendars.json
           { printf '<p>Last update: <time>%s</time></p>' "$(date)"; } >build/index.html
           mv ical -t build
           
