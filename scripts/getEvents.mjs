@@ -26,7 +26,7 @@ if (!fileNames.length) {
     process.exit(1);
 }
 
-const events = parseEvents(fileNames, path.basename(dir))
+const events = parseEvents(fileNames, "cours")
     .filter(e => !e.id.startsWith("Ferie"))
 
 console.log(JSON.stringify(events))
