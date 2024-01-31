@@ -121,7 +121,7 @@ function  generateIcss(list, type) {
   }
   record(config.data, type, { //add itemList (les profs, les cours...) to config
     name: type,
-    items
+    items: Object.fromEntries(Object.entries(items).sort()) // this is dirty, definitely not future-proof (trying to impose an order on key-value pairs in an object is obviously stupid)
     })
   
 }
