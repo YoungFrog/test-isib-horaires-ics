@@ -3,15 +3,15 @@ VERSION:2.0
 PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
 METHOD:PUBLISH
 X-CALSTART:20240129T000000Z
-X-CALEND:20240323T000000Z
-X-WR-CALNAME;LANGUAGE=fr:HYP - SYS3-sysl - du 29 janvier au 23 mars 2024
-X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de SYS3-sysl généré par le logiciel HP (©INDEX ÉDUCATION) le 01 févr. 2024 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 29 janvier au 23 mars 2024 - Semaines : semaine 5 - 12
+X-CALEND:20240309T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - SYS3-sysl - du 29 janvier au 09 mars 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de SYS3-sysl généré par le logiciel HP (©INDEX ÉDUCATION) le 01 févr. 2024 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 29 janvier au 09 mars 2024 - Semaines : semaine 5 - 10
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240201T100852Z
+DTSTAMP:20240201T121416Z
 UID:Ferie-381-SYS3-sysl-Index-Education
 DTSTART;VALUE=DATE:20240304
-DTEND;VALUE=DATE:20240311
+DTEND;VALUE=DATE:20240310
 SUMMARY;LANGUAGE=fr:Vacances
 END:VEVENT
 END:VCALENDAR
