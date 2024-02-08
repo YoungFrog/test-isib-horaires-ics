@@ -2,13 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
 METHOD:PUBLISH
-X-CALSTART:20240205T000000Z
-X-CALEND:20240316T000000Z
-X-WR-CALNAME;LANGUAGE=fr:HYP - Récup cpp et seci5 - du 05 février au 16 mars 2024
-X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de Récup cpp et seci5 généré par le logiciel HP (©INDEX ÉDUCATION) le 06 févr. 2024 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 05 février au 16 mars 2024 - Semaines : semaine 6 - 11
+X-CALSTART:20240129T000000Z
+X-CALEND:20240323T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - Récup cpp et seci5 - du 29 janvier au 23 mars 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de Récup cpp et seci5 généré par le logiciel HP (©INDEX ÉDUCATION) le 08 févr. 2024 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 29 janvier au 23 mars 2024 - Semaines : semaine 5 - 12
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240206T143256Z
+DTSTAMP:20240208T094842Z
 UID:Ferie-381-Recup_cpp_et_seci5-Index-Education
 DTSTART;VALUE=DATE:20240304
 DTEND;VALUE=DATE:20240311
