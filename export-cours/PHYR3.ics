@@ -5,10 +5,10 @@ METHOD:PUBLISH
 X-CALSTART:20240205T000000Z
 X-CALEND:20240323T000000Z
 X-WR-CALNAME;LANGUAGE=fr:HYP - PHYR3 - du 05 février au 23 mars 2024
-X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de PHYR3 généré par le logiciel HP (©INDEX ÉDUCATION) le 14 févr. 2024 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 05 février au 23 mars 2024 - Semaines : semaine 6 - 12
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de PHYR3 généré par le logiciel HP (©INDEX ÉDUCATION) le 15 févr. 2024 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 05 février au 23 mars 2024 - Semaines : semaine 6 - 12
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240214T091206Z
+DTSTAMP:20240215T124503Z
 UID:Ferie-381-PHYR3-Index-Education
 DTSTART;VALUE=DATE:20240304
 DTEND;VALUE=DATE:20240311
