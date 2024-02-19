@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
 METHOD:PUBLISH
 X-CALSTART:20240205T000000Z
-X-CALEND:20240323T000000Z
-X-WR-CALNAME;LANGUAGE=fr:HYP - REM-DEV1 - du 05 février au 23 mars 2024
-X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de REM-DEV1 généré par le logiciel HP (©INDEX ÉDUCATION) le 16 févr. 2024 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 05 février au 23 mars 2024 - Semaines : semaine 6 - 12
+X-CALEND:20240330T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - REM-DEV1 - du 05 février au 30 mars 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de REM-DEV1 généré par le logiciel HP (©INDEX ÉDUCATION) le 19 févr. 2024 - Haute Ecole Bruxelles Brabant - ESI - valable sur la période du 05 février au 30 mars 2024 - Semaines : semaine 6 - 13
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240216T104755Z
+DTSTAMP:20240219T105712Z
 UID:Ferie-381-REM-DEV1-Index-Education
 DTSTART;VALUE=DATE:20240304
 DTEND;VALUE=DATE:20240311
