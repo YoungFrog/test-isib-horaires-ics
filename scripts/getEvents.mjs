@@ -2,9 +2,7 @@
 "use strict"
 
 import fs from 'fs';
-import ical from 'ical';
 import path from 'path';
-const { parseFile } = ical;
 
 import getopt from 'node-getopt';
 import parseEvents from './parseIcs.mjs';
