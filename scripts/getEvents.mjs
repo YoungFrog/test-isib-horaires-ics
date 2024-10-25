@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 import getopt from 'node-getopt';
-import parseEvents from './parseIcs.mjs';
+import parseCours from './parseIcs.mjs';
 
 let opt = getopt.create([
     ['d', 'dir=ARG', 'Répertoire contenant les ics']
@@ -24,7 +24,7 @@ if (!fileNames.length) {
     process.exit(1);
 }
 
-const events = parseEvents(fileNames, "cours")
+const events = parseCours(fileNames)
     .filter(e => !e.id.startsWith("Ferie"))
 
 console.log(JSON.stringify(events))

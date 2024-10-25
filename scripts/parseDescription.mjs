@@ -19,24 +19,24 @@ const parseDesc = (description) => {
 
     switch (key) {
       case 'Matière':
-        obj.aa = value
+        obj.cours = { code: value }
         break
       case 'TD':
       case 'Promotion':
       case 'Promotions':
-        obj.groupes = value.split(', ')
+        obj.groupes = value.split(', ').map(groupe => ({ code: groupe, name: groupe }))
         break
       case 'Enseignant':
       case 'Enseignants':
         key = 'profs'
-        obj.profs = value.split(', ')
-        if (obj.profs.every(prof => prof.match(/^[A-Z][A-Z][A-Z]\b/))) {
-          obj.profacros = obj.profs.map(prof => prof.slice(0, 3))
-        }
+        obj.profs = value.split(', ').map(prof => {
+          let [code, name] = prof.split('-')
+          return { code, name: name ?? code }
+        })
         break
       case 'Salle':
       case 'Salles':
-        obj.salles = value.split(', ')
+        obj.salles = value.split(', ').map(salle => ({ code: salle, name: salle }))
         break
       case 'Type':
         obj.type = value
