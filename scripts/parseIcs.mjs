@@ -31,9 +31,13 @@ function parseFilename(fn) {
 
   const pos = basename.indexOf(' ')
 
-  const code = basename.substring(0, pos)
-  const name = basename.substring(pos + 1)
-  return [code, name ?? code]
+  if (pos > 0) {
+    const code = basename.substring(0, pos)
+    const name = basename.substring(pos + 1)
+    return [code, name ?? code]
+  } else {
+    return [basename, basename]
+  }
 }
 
 function parseCours(fileNames) {
