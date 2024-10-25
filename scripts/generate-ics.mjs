@@ -42,6 +42,8 @@ function record(bucket, key, valueObject) {
 const icss = { profs: {}, groupes: {}, salles: {}, cours: {} }
 const LIST_FORMATTER = new Intl.ListFormat('fr', { style: 'narrow', type: 'unit' })
 
+// record the association "code => name" for later re-use
+const names = { profs: {}, groupes: {}, salles: {}, cours: {} }
 
 fs.readFile(eventsJsonFile, 'utf-8', (err, data) => {
   if (err) throw err
@@ -54,8 +56,18 @@ fs.readFile(eventsJsonFile, 'utf-8', (err, data) => {
    and for each of them we add the event as an ics value. 
   */
   events.forEach(event => {
-    ["profs", "groupes", "salles", "cours"].forEach((type) =>
-      addEvent(event[type], icss[type], getIcsEvent(event, type)))
+    ["profs", "groupes", "salles", "cours"].forEach((type) => {
+
+      if (!event[type]) return // parfois il n'y a pas de groupe, par exemple (M1-cyber)
+      for (let thing of event[type]) {
+        if (names[type][thing.code] && names[type][thing.code] !== thing.name) {
+          console.error("Existing names: ", names[type]);
+          console.error("Overwriting with: ", thing.code, ": ", thing.name)
+        }
+        names[type][thing.code] = thing.name
+      }
+      addEvent(event[type], icss[type], getIcsEvent(event, type))
+    })
   })
 
   console.log("generating all ics files: ")
@@ -96,7 +108,7 @@ function generateIcss(list, type) {
       });
 
       items.push({ // item (1 cours, 1 prof)
-        name: key, code: key
+        name: names[type][key], code: key
       })
     })
   }
