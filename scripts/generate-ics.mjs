@@ -160,7 +160,7 @@ function getIcsEvent(event, type) {
     start: getDateAsArray(new Date(event.start)),
     end: getDateAsArray(new Date(event.end)),
     title: getTitle(event, type),
-    description: (event.description) ? event.description : "-",
+    description: event.description ?? "-",
     location: event.salles + "",
     uid: event.id
   }
