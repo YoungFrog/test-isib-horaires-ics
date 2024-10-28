@@ -8,7 +8,7 @@ BEGIN:VEVENT
 UID:Cours-63-8-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g1 IB2g2 - Labo de physique RG
 	 + RR (fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241105T093000Z
 DTEND:20241105T113000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotions : IB2g1\
@@ -19,7 +19,7 @@ BEGIN:VEVENT
 UID:Cours-66-8-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g2 - Labo de physique RG + RR 
 	(fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241108T070000Z
 DTEND:20241108T113000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotion : IB2g2\n
@@ -30,7 +30,7 @@ BEGIN:VEVENT
 UID:Cours-66-9-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g2 - Labo de physique RG + RR 
 	(fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241115T070000Z
 DTEND:20241115T113000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotion : IB2g2\n
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 UID:Cours-66-11-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g2 - Labo de physique RG + RR 
 	(fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241129T070000Z
 DTEND:20241129T113000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotion : IB2g2\n
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 UID:Cours-66-13-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g2 - Labo de physique RG + RR 
 	(fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241213T070000Z
 DTEND:20241213T113000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotion : IB2g2\n
@@ -63,7 +63,7 @@ BEGIN:VEVENT
 UID:Cours-1082-11-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Gerardy I. - IB2g1 IB2g2 - Labo de physique RG
 	 + RR (fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241129T124000Z
 DTEND:20241129T144000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Gerardy I.\nPromotions : IB2g1\
@@ -74,7 +74,7 @@ BEGIN:VEVENT
 UID:Cours-1083-10-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Gerardy I. - IB2g1 IB2g2 - Labo de physique RG
 	 + RR (fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241121T150000Z
 DTEND:20241121T170000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Gerardy I.\nPromotions : IB2g1\
@@ -85,7 +85,7 @@ BEGIN:VEVENT
 UID:Cours-1357-8-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g1 - Labo de physique RG + RR 
 	(fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241107T124000Z
 DTEND:20241107T170000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotion : IB2g1\n
@@ -96,7 +96,7 @@ BEGIN:VEVENT
 UID:Cours-1357-9-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g1 - Labo de physique RG + RR 
 	(fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241114T124000Z
 DTEND:20241114T170000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotion : IB2g1\n
@@ -107,7 +107,7 @@ BEGIN:VEVENT
 UID:Cours-1360-10-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g1 - Labo de physique RG + RR 
 	(fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241122T070000Z
 DTEND:20241122T113000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotion : IB2g1\n
@@ -118,7 +118,7 @@ BEGIN:VEVENT
 UID:Cours-1360-12-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Derrien J. - IB2g1 - Labo de physique RG + RR 
 	(fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241206T070000Z
 DTEND:20241206T113000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Derrien J.\nPromotion : IB2g1\n
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 UID:Cours-2821-8-Exos & Labo. phys.-Index-Education
 SUMMARY:Exos & Labo. phys. - Gerardy I. - IB2g1 IB2g2 - Labo de physique RG
 	 + RR (fluoX)
-DTSTAMP:20241028T081200Z
+DTSTAMP:20241028T155900Z
 DTSTART:20241106T124000Z
 DTEND:20241106T144000Z
 DESCRIPTION:Matière : 2ZZ2602\nEnseignant : Gerardy I.\nPromotions : IB2g1\
