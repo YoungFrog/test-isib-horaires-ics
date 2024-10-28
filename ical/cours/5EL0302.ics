@@ -1,0 +1,251 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:Cours-2064-4-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC005
+DTSTAMP:20241028T081200Z
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC005\n
+LOCATION:MC005
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2066-4-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC105
+DTSTAMP:20241028T081200Z
+DTSTART:20241011T060000Z
+DTEND:20241011T080000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC105\n
+LOCATION:MC105
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2071-5-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC205
+DTSTAMP:20241028T081200Z
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC205\n
+LOCATION:MC205
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2086-2-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC205
+DTSTAMP:20241028T081200Z
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC205\n
+LOCATION:MC205
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2092-9-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC005
+DTSTAMP:20241028T081200Z
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC005\n
+LOCATION:MC005
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2309-9-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC005
+DTSTAMP:20241028T081200Z
+DTSTART:20241112T070000Z
+DTEND:20241112T090000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC005\n
+LOCATION:MC005
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2741-1-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC205
+DTSTAMP:20241028T081200Z
+DTSTART:20240917T060000Z
+DTEND:20240917T080000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC205\n
+LOCATION:MC205
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2741-2-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC205
+DTSTAMP:20241028T081200Z
+DTSTART:20240924T060000Z
+DTEND:20240924T080000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC205\n
+LOCATION:MC205
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2741-5-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC205
+DTSTAMP:20241028T081200Z
+DTSTART:20241015T060000Z
+DTEND:20241015T080000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC205\n
+LOCATION:MC205
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2742-1-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC205
+DTSTAMP:20241028T081200Z
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC205\n
+LOCATION:MC205
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2784-6-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC207
+DTSTAMP:20241028T081200Z
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC207\n
+LOCATION:MC207
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-3298-5-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) - Baiboun N. X ElAu - IM2el IM2me - MC113
+DTSTAMP:20241028T081200Z
+DTSTART:20241018T060000Z
+DTEND:20241018T080000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	s : IM2el\, IM2me\nSalle : MC113\n
+LOCATION:MC113
+END:VEVENT
+BEGIN:VEVENT
+UID:Férié-1-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) -  -  - 
+DTSTAMP:20241028T081200Z
+DTSTART:20240927T000000Z
+DTEND:20240928T000000Z
+DESCRIPTION:-
+END:VEVENT
+BEGIN:VEVENT
+UID:Férié-3-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) -  -  - 
+DTSTAMP:20241028T081200Z
+DTSTART:20241028T000000Z
+DTEND:20241102T000000Z
+DESCRIPTION:-
+END:VEVENT
+BEGIN:VEVENT
+UID:Férié-4-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) -  -  - 
+DTSTAMP:20241028T081200Z
+DTSTART:20241111T000000Z
+DTEND:20241112T000000Z
+DESCRIPTION:-
+END:VEVENT
+BEGIN:VEVENT
+UID:Férié-5-Variateurs de vitesse (1)-Index-Education
+SUMMARY:Variateurs de vitesse (1) -  -  - 
+DTSTAMP:20241028T081200Z
+DTSTART:20241223T000000Z
+DTEND:20250106T000000Z
+DESCRIPTION:-
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2060-13-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) - Baiboun N. X ElAu - IM2el - MC205
+DTSTAMP:20241028T081200Z
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	 : IM2el\nSalle : MC205\n
+LOCATION:MC205
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2068-14-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) - Baiboun N. X ElAu - IM2el - MC205
+DTSTAMP:20241028T081200Z
+DTSTART:20241219T124000Z
+DTEND:20241219T144000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	 : IM2el\nSalle : MC205\n
+LOCATION:MC205
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2070-13-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) - Baiboun N. X ElAu - IM2el - MC005
+DTSTAMP:20241028T081200Z
+DTSTART:20241211T093000Z
+DTEND:20241211T113000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	 : IM2el\nSalle : MC005\n
+LOCATION:MC005
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2072-9-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) - Baiboun N. X ElAu - IM2el - MC113
+DTSTAMP:20241028T081200Z
+DTSTART:20241113T124000Z
+DTEND:20241113T144000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	 : IM2el\nSalle : MC113\n
+LOCATION:MC113
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2783-11-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) - Baiboun N. X ElAu - IM2el - MC105
+DTSTAMP:20241028T081200Z
+DTSTART:20241128T093000Z
+DTEND:20241128T113000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	 : IM2el\nSalle : MC105\n
+LOCATION:MC105
+END:VEVENT
+BEGIN:VEVENT
+UID:Cours-2783-13-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) - Baiboun N. X ElAu - IM2el - MC105
+DTSTAMP:20241028T081200Z
+DTSTART:20241212T093000Z
+DTEND:20241212T113000Z
+DESCRIPTION:Matière : 5EL0302\nEnseignants : Baiboun N.\, X ElAu\nPromotion
+	 : IM2el\nSalle : MC105\n
+LOCATION:MC105
+END:VEVENT
+BEGIN:VEVENT
+UID:Férié-1-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) -  -  - 
+DTSTAMP:20241028T081200Z
+DTSTART:20240927T000000Z
+DTEND:20240928T000000Z
+DESCRIPTION:-
+END:VEVENT
+BEGIN:VEVENT
+UID:Férié-3-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) -  -  - 
+DTSTAMP:20241028T081200Z
+DTSTART:20241028T000000Z
+DTEND:20241102T000000Z
+DESCRIPTION:-
+END:VEVENT
+BEGIN:VEVENT
+UID:Férié-4-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) -  -  - 
+DTSTAMP:20241028T081200Z
+DTSTART:20241111T000000Z
+DTEND:20241112T000000Z
+DESCRIPTION:-
+END:VEVENT
+BEGIN:VEVENT
+UID:Férié-5-Variateurs de vitesse (2)-Index-Education
+SUMMARY:Variateurs de vitesse (2) -  -  - 
+DTSTAMP:20241028T081200Z
+DTSTART:20241223T000000Z
+DTEND:20250106T000000Z
+DESCRIPTION:-
+END:VEVENT
+END:VCALENDAR
