@@ -7,7 +7,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:Cours-1053-10-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - IM2pnm - R104
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241120T080000Z
 DTEND:20241120T113000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Van Simaeys G.\nPromotion : IM2
@@ -17,7 +17,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:Cours-1054-8-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - IM2pnm - R104
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241106T080000Z
 DTEND:20241106T113000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Van Simaeys G.\nPromotion : IM2

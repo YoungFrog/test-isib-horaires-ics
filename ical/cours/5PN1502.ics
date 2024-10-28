@@ -7,7 +7,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:Cours-356-14-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - Martens C. - IM2pnm - R104
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241218T124000Z
 DTEND:20241218T170000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Martens C.\nPromotion : IM2pnm\
@@ -17,7 +17,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:Cours-1053-10-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - Van Simaeys G. - IM2pnm - R104
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241120T080000Z
 DTEND:20241120T113000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Van Simaeys G.\nPromotion : IM2
@@ -27,7 +27,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:Cours-1054-8-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - Van Simaeys G. - IM2pnm - R104
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241106T080000Z
 DTEND:20241106T113000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Van Simaeys G.\nPromotion : IM2
@@ -37,7 +37,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:Cours-1922-12-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - Martens C. - IM2pnm - MC005
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241202T124000Z
 DTEND:20241202T170000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Martens C.\nPromotion : IM2pnm\
@@ -47,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:Cours-2835-9-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - Martens C. - IM2pnm - R104
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241115T124000Z
 DTEND:20241115T170000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Martens C.\nPromotion : IM2pnm\
@@ -57,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:Cours-2835-10-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - Martens C. - IM2pnm - R104
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241122T124000Z
 DTEND:20241122T170000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Martens C.\nPromotion : IM2pnm\
@@ -67,43 +67,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:Cours-2835-12-Applications médicales du mach-Index-Education
 SUMMARY:Applications médicales du mach - Martens C. - IM2pnm - R104
-DTSTAMP:20241028T155900Z
+DTSTAMP:20241028T173000Z
 DTSTART:20241206T124000Z
 DTEND:20241206T170000Z
 DESCRIPTION:Matière : 5PN1502\nEnseignant : Martens C.\nPromotion : IM2pnm\
 	nSalle : R104\n
 LOCATION:R104
-END:VEVENT
-BEGIN:VEVENT
-UID:Férié-1-Applications médicales du mach-Index-Education
-SUMMARY:Applications médicales du mach -  -  - 
-DTSTAMP:20241028T155900Z
-DTSTART:20240927T000000Z
-DTEND:20240928T000000Z
-DESCRIPTION:-
-END:VEVENT
-BEGIN:VEVENT
-UID:Férié-3-Applications médicales du mach-Index-Education
-SUMMARY:Applications médicales du mach -  -  - 
-DTSTAMP:20241028T155900Z
-DTSTART:20241028T000000Z
-DTEND:20241102T000000Z
-DESCRIPTION:-
-END:VEVENT
-BEGIN:VEVENT
-UID:Férié-4-Applications médicales du mach-Index-Education
-SUMMARY:Applications médicales du mach -  -  - 
-DTSTAMP:20241028T155900Z
-DTSTART:20241111T000000Z
-DTEND:20241112T000000Z
-DESCRIPTION:-
-END:VEVENT
-BEGIN:VEVENT
-UID:Férié-5-Applications médicales du mach-Index-Education
-SUMMARY:Applications médicales du mach -  -  - 
-DTSTAMP:20241028T155900Z
-DTSTART:20241223T000000Z
-DTEND:20250106T000000Z
-DESCRIPTION:-
 END:VEVENT
 END:VCALENDAR
